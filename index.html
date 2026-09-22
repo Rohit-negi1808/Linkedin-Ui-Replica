@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search for anything">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="images/home.png"> Home</a></li>
+            <li><a href="#"><img src="images/network.png">Network</a></li>
+            <li><a href="#"><img src="images/jobs.png"> Jobs</a></li>
+            <li><a href="#"><img src="images/message.png"> Messaging</a></li>
+            <li><a href="#"><img src="images/notification.png"> Notifications</a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <img src="images/Photograph.jpg"
+                 class="nav-profile-img" onclick="toggleMenu()">
+    </div>
+    <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="images/Photograph.jpg">
+                <div>
+                    <h3>Rohit Negi</h3>
+                    <a href="https://www.linkedin.com/in/rohit-negi-287a0b30b/" target="_blank">
+                  
+                  
+                        See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link"><img src="images/feedback.png"> Give Feedback</a>
+            <a href="#" class="profile-menu-link"><img src="images/setting.png"> Settings & Privacy</a>
+            <a href="#" class="profile-menu-link"><img src="images/help.png"> Help & Support</a>
+            <a href="#" class="profile-menu-link"><img src="images/display.png"> Display & Accessibility</a>
+            <a href="login.html" class="profile-menu-link"><img src="images/logout.png"> Logout</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="left-sidebar"> 
+        <div class="sidebar-profile-box">
+            <img src="images/linkdinCover.avif" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="images/Photograph.jpg">
+                <h1>Rohit Negi</h1>
+                <h3>Student at CHANDIGARH UNIVERSITY</h3>
+                <ul>
+                    <li> Profile views <span>69</span></li>
+                    <li> Post views <span>193</span></li>
+                    <li> Connections <span>106</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="images/items.png">My Items</a>
+                <a href="#"><img src="images/premium.png">Try Premium</a>
+            </div>
+        </div>
+
+        <div class="sidebar-activity" id="sidebarActivity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="images/recent.png">Data Analysis</a>
+            <a href="#"><img src="images/recent.png">UI UX Design</a>
+            <a href="#"><img src="images/recent.png">Web Development</a>
+            <div class="discover-more-link"><a href="#">Discover More</a></div>
+        </div>
+
+    </div>
+
+    <div class="main-content"> 
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="images/Photograph.jpg">
+                <textarea rows="2" placeholder="Write Something"></textarea>
+            </div>
+            <div class="create-post-links">
+                <li><img src="images/photo.png">Photo</li>
+                <li><img src="images/video.png">Video</li>
+                <li><img src="images/event.png">Event</li>
+                <li>Post</li>
+            </div>
+        </div>
+        <div class="sort-by"><hr><p>Sort by: <span>top <img src="images/down-arrow.png"></span ></p></div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="images/Photograph.jpg">
+                <div>
+                    <h1>Rohit negi</h1>
+                    <small>Student at CHANDIGARH UNIVERSITY</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>I'm thrilled to announce that I've finished the Infosys Springboard Basic CSharp Programming course! 
+                I'm thankful for the educational experience hashtag#InfosysSpringboard</p>
+            <img src="images/C-Sharp.jpg"
+             width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="images/thumbsup.png">
+                    <img src="images/love.png">
+                    <img src="images/clap.png">
+                    <span class="liked-users"> Manish Singh and 69 others</span>
+                </div>
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="images/Photograph.jpg"
+                            class="post-activity-user-icon">
+                    <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="images/manish.jpg">
+                <div>
+                    <h1>Manish Singh</h1>
+                    <small>Student at CHANDIGARHH UNIVERSITY</small>
+                    <small>6 hours ago</small>
+                </div>
+            </div>
+            <p>I'm pleased to report that I finished the Intel® AI Global Impact Festival 2024's 
+                "Introduction to Generative AI" program hashtag#IntelAI</p>
+            <img src="images/manishAICert..jpg"
+              width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="images/thumbsup.png">
+                    <img src="images/love.png">
+                    <img src="images/clap.png">
+                    <span class="liked-users">Satyam Kumar and 72 others</span>
+                </div>
+                <div>
+                    <span>19 comments &middot; 27 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="images/Photograph.jpg"
+                      class="post-activity-user-icon">
+                    <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="images/more.png" class="info-icon">
+            <h3>Trending Now </h3>
+            <a href="#">High Demand for Skilled Employees</a>
+            <span>1d ago &middot; 10,934 readers</span>
+            <a href="#">Startup Exit Policies</a>
+            <span>3d ago &middot; 11,203 readers</span>
+            <a href="#">Gen Z and brands</a>
+            <span>4d ago &middot; 7,322 readers</span>
+            <a href="#">Indain Law firms</a>
+            <span>5d ago &middot; 3,380 readers</span>
+            <a href="#">DTH industry in India</a>
+            <span>5d ago &middot; 2,712 readers</span>
+            <a href="#">Career Breaks</a>
+            <span>5d ago &middot; 5,677 readers</span>
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+            <a href="#">About</a> |
+            <a href="#">Accessibility</a> |
+            <a href="#">Help Center</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Advertising</a> |
+            <a href="#">Get the App</a> |
+            <a href="#">More</a>
+        
+            <div class="copyright-msg">
+                <img src="images/logo.png" width="15px">
+                <span>Linkedin &#169; 2022. All Rights Reserved</span>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<script>
+    let profileMenu = document.getElementById("profileMenu");
+    let sideActivity = document.getElementById("sidebarActivity");
+    let moreLink = document.getElementById("showMoreLink");
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+
+    function toggleActivity(){
+        sideActivity.classList.toggle("open-activity");
+        if (sideActivity.classList.contains("open-activity")) {
+            moreLink.innerHTML="Show less <b>-</b>";
+        }
+        else{
+            moreLink.innerHTML="Show More <b>+</b>";
+        }
+    }
+
+const postButton = document.querySelector('.create-post-links li:last-child');
+const postInput = document.querySelector('.create-post-input textarea');
+
+postButton.addEventListener('click', function() {
+    const newPost = document.createElement('div');
+    newPost.className = 'post';
+    newPost.innerHTML = `<div class="post-author">
+            <img src="images/Photograph.jpg">
+            <div>
+                <h1>Rohit Negi</h1>
+                <small>Student at CHANDIGARH UNIVERSITY</small>
+                <small>Just now</small>
+            </div>
+        </div>
+        <p>${postInput.value}</p>
+        <div class="post-stats">
+            <div>
+                <span>No likes yet</span>
+            </div>
+            <div>
+                <span>No comments yet</span>
+            </div>
+        </div>`;
+
+    const createPostDiv = document.querySelector('.create-post');
+    createPostDiv.insertAdjacentElement('afterend', newPost);
+
+    postInput.value = '';
+});
+
+</script>
+</body>
+</html>
